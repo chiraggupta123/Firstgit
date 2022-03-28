@@ -8,6 +8,7 @@ driver.find_element_by_id("username").send_keys("chirag");
 driver.find_element_by_id("password").send_keys("Hello");
 driver.find_element_by_xpath("//i[@class=\"fa fa-2x fa-sign-in\"]").click();
 time.sleep(3)
-print("Hello");
+print("Hello")
 print("chirag")
+print("Gupta")
 driver.quit()
